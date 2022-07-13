@@ -1,0 +1,19 @@
+{
+  "name": "vue-press",
+  "version": "0.0.1",
+  "description": "vuePress搭建",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "vuePress"
+  ],
+  "author": "wzm",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.14"
+  }
+}
