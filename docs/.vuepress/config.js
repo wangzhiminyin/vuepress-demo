@@ -6,7 +6,7 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
-  title: '首页',
+  title: 'vue知识点总结',
   description: '...',
   themeConfig: {
       nav: [
@@ -25,16 +25,20 @@ module.exports = {
           path: '/',
           collapsable: false, // 不折叠
           children: [
-              { title: "学前必读", path: "/" }
+              { title: "初始vue", path: "/" }
           ]
       },
       {
-        title: "基础学习",
-        path: '/base/Demo',
+        title: "知识点学习",
+        path: '/base/ComputedWatch',
         collapsable: false, // 不折叠
         children: [
-          { title: "条件类型", path: "/base/Demo" },
-          { title: "泛型", path: "/base/Demo2" }
+          { title: "1. computed和watch", path: "/base/ComputedWatch" },
+          { title: "2. ClassStyle绑定", path: "/base/ClassStyle" },
+          { title: "3. v-model数据绑定", path: "/base/DataBinding" },
+          { title: "4. 渲染函数", path: "/base/Functional" },
+          { title: "5. template和jsx", path: "/base/TemplateJsx" },
+          { title: "6. 父子之间通信", path: "/base/PropsEmit" },
         ],
       }
     ]
